@@ -1,6 +1,6 @@
 # SPX500 30m OHLCV Index Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-9_392_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-204_802_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
 
 ### → [**Download the full SPX500 dataset on ork.ad**](https://ork.ad/)
 
@@ -24,11 +24,11 @@
 - **Ultra high-quality 30m OHLCV** for **S&P 500** (Stock index)
 - **Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only**
 - **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`30m`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **9,392** `30m` rows in the full archive
+- **Free evaluation sample** on GitHub (`30m`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **204,802** `30m` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [ork.ad](https://ork.ad/) every **Sunday**; GitHub `30m` sample updated in sync
 
-> **Sample on GitHub** · `SPX500_30m.csv` (8,651 rows, `2025-10-02` → `2026-07-02`). **Full archive on [ork.ad](https://ork.ad/)** — **9,392** `30m` rows (~0.57 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2025-09-10` → `2026-07-02`.
+> **Sample on GitHub** · `SPX500_30m.csv` (8,758 rows, `2025-10-03` → `2026-07-03`). **Full archive on [ork.ad](https://ork.ad/)** — **204,802** `30m` rows (~11.19 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2008-08-19` → `2026-07-03`.
 
 ## Download sample
 
@@ -44,9 +44,9 @@ Interactive chart & stats: **[https://ork-ad.github.io/spx500-30m-ohlcv-index-hi
 |---|--:|---|
 | Instrument | S&P 500 · Stock index | S&P 500 · Stock index |
 | Timeframes | `30m` (sample) | **13** — `1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W` |
-| 30m rows | 8,651 | **9,392** |
-| Size | 0.52 MB | ~0.57 MB |
-| Period | `2025-10-02` → `2026-07-02` | `2025-09-10` → `2026-07-02` |
+| 30m rows | 8,758 | **204,802** |
+| Size | 0.5 MB | ~11.19 MB |
+| Period | `2025-10-03` → `2026-07-03` | `2008-08-19` → `2026-07-03` |
 | File | `SPX500_30m.csv` | ZIP on [ork.ad](https://ork.ad/) |
 | Updates | Weekly (Sunday) — GitHub sample | Weekly (Sunday) — all timeframes |
 
@@ -73,21 +73,21 @@ First and latest rows from the GitHub sample **`SPX500_30m.csv`**:
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2025-10-02T22:00:00Z | 6713.417 | 6714.917 | 6711.157 | 6711.167 | 430.0 |
-| 2025-10-02T22:30:00Z | 6711.167 | 6714.427 | 6707.417 | 6714.157 | 529.0 |
-| 2025-10-02T23:00:00Z | 6714.157 | 6716.677 | 6712.427 | 6716.657 | 366.0 |
-| 2025-10-02T23:30:00Z | 6716.657 | 6718.407 | 6715.657 | 6718.157 | 412.0 |
-| 2025-10-03T00:00:00Z | 6718.157 | 6719.677 | 6715.907 | 6718.677 | 768.0 |
+| 2025-10-03T16:30:00Z | 6746.94 | 6747.96 | 6742.44 | 6744.71 | 1920.0 |
+| 2025-10-03T17:00:00Z | 6744.71 | 6744.71 | 6725.44 | 6725.46 | 8000.0 |
+| 2025-10-03T17:30:00Z | 6725.46 | 6731.71 | 6703.46 | 6713.96 | 9829.0 |
+| 2025-10-03T18:00:00Z | 6713.96 | 6728.96 | 6704.44 | 6727.44 | 9444.0 |
+| 2025-10-03T18:30:00Z | 6727.44 | 6728.96 | 6714.94 | 6720.69 | 6452.0 |
 
 **Last rows**
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
 | time | open | high | low | close | volume |
-| 2026-07-02T19:00:00Z | 6011.5 | 6013.3 | 5991.8 | 6001.6 | 22812.0 |
-| 2026-07-02T19:30:00Z | 6001.6 | 6033.9 | 5999.9 | 6027.5 | 25244.0 |
-| 2026-07-02T20:00:00Z | 6027.5 | 6028.1 | 6021.1 | 6025.1 | 7198.0 |
-| 2026-07-02T20:30:00Z | 6025.1 | 6027.7 | 6023.3 | 6026.6 | 3411.0 |
+| 2026-07-03T14:30:00Z | 7497.61 | 7504.37 | 7497.36 | 7503.12 | 2481.0 |
+| 2026-07-03T15:00:00Z | 7503.12 | 7503.38 | 7498.12 | 7498.37 | 1953.0 |
+| 2026-07-03T15:30:00Z | 7498.37 | 7503.11 | 7497.36 | 7501.86 | 1674.0 |
+| 2026-07-03T16:00:00Z | 7501.86 | 7501.86 | 7497.61 | 7497.87 | 1003.0 |
 
 ## Schema
 
@@ -145,9 +145,9 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **SPX500** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **9,392** rows at `30m`, plus all other timeframes in the same ZIP.
+The complete **SPX500** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **204,802** rows at `30m`, plus all other timeframes in the same ZIP.
 
 **[→ Get the full SPX500 dataset on ork.ad](https://ork.ad/)**
 
 ---
-*GetData · SPX500 30m OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-04 UTC*
+*GetData · SPX500 30m OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-06 UTC*
